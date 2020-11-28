@@ -9,7 +9,10 @@
                     "/usr/include/"
                     "/usr/include/arm-linux-gnueabihf"
                     "/usr/include/X11/")
-  :include-sources ("SDL2_gfxPrimitives.h")
+  :include-sources ("SDL2_gfxPrimitives.h"
+                    "SDL2_framerate.h"
+                    "SDL2_imageFilter.h"
+                    "SDL2_rotozoom.h")
   :exclude-definitions ("SDL_LogMessageV"
                         "SDL_vsnprintf"
                         "_inline$"
